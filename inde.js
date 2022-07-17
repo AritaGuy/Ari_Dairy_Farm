@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-// Creating objects 
+
+// Creating object
 let a ={
     name : "Shed A",
     volume : 510 
@@ -17,7 +17,7 @@ let d={
     volume : 572 
 };
 //production array
-let production = [a, b, c, d];
+var production = [a, b, c, d];
 //production volume function
 let perShed = function(a)
 {
@@ -31,6 +31,17 @@ let perShed = function(a)
 perShed();
 let totalProd = a.volume + b.volume + c.volume + d.volume
 console.log(`Your total production is ${totalProd} litres`)
-=======
-alert(`Welcome to AriFarm,hope you enjoy`)
->>>>>>> fb7a5eb945c745cda87e22b0a51e7728c8e820e8
+
+
+//function calculating total payments to be made by Brookside
+let selling_price = 45
+let time = 7  
+let calc = function(a,b){
+    let tot = totalProd * a * b;
+    console.log(`Your weekly income will be Ksh ${tot}`);
+    let year = totalProd * a * b * 4 * 12;
+    console.log(`Your yearly income will be Ksh ${year}`);
+};
+calc(selling_price, time);
+
+
