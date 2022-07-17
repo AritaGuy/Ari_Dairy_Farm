@@ -5,3 +5,12 @@ html{
     background-size: cover;
     background-position: center;
 }
+body{
+    height: 95%;
+    background-color: azure;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+    margin-top: 25px;
+    opacity: 0.7; 
+}
