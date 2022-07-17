@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Creating objects 
 let a ={
     name : "Shed A",
@@ -30,3 +31,6 @@ let perShed = function(a)
 perShed();
 let totalProd = a.volume + b.volume + c.volume + d.volume
 console.log(`Your total production is ${totalProd} litres`)
+=======
+alert(`Welcome to AriFarm,hope you enjoy`)
+>>>>>>> fb7a5eb945c745cda87e22b0a51e7728c8e820e8
