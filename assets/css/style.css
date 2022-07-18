@@ -1,5 +1,5 @@
 html{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(/assets/images/bck.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./assets/images/bck.jpg);
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
