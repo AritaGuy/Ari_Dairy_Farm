@@ -17,3 +17,16 @@ let d={
 };
 //production array
 var production = [a, b, c, d];
+//production volume function
+let perShed = function()
+{   let l
+    var i ;
+    for (i=0; i<production.length ; i++){
+      
+            l = `Your production in ${production[i].name} is ${production[i].volume} litres per day`;
+        
+       
+      
+    };
+    return l;
+};
