@@ -15,3 +15,5 @@ let d={
     name : "Shed D",
     volume : 572 
 };
+//production array
+var production = [a, b, c, d];
