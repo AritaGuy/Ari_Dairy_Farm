@@ -97,3 +97,16 @@ body{
 #earnings:hover{
     border-bottom: solid 2px white;
 }
+#r{
+    height: 80%;
+    width: 85%;
+    float: right;
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-right: 25px;
+    color: bisque;
+}
+#r p{
+    padding: 20px;
+
+}
