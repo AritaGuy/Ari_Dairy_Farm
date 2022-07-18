@@ -30,3 +30,11 @@ let perShed = function()
     };
     return l;
 };
+
+const milkProd = document.getElementById("milkProd");
+const change = () => {  
+    
+    s.innerHTML = perShed();
+};
+let s = document.getElementById("results");
+milkProd.addEventListener("click", change); 
