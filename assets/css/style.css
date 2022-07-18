@@ -1,5 +1,5 @@
 html{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./assets/images/bck.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(/assets/images/bck.jpg);
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
@@ -125,4 +125,20 @@ body{
 #r p{
     padding: 20px;
 
+}
+#leapyear{
+    border: none;
+    border-bottom: 2px white;
+    background: none;
+    color: bisque;
+    box-shadow: none;
+    border-style: none ; 
+    height: 60px;
+    width: 145px;
+    font-size: large;
+    margin-top: 10px;
+}
+
+#leapyear:hover{
+    border-bottom: solid 2px white;
 }
